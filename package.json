@@ -1,0 +1,71 @@
+{
+  "name": "@adddog/zod-to-json-schema",
+  "version": "0.0.1",
+  "description": "Convert Zod v4 schemas to JSON Schema Draft 7",
+  "type": "module",
+  "author": "Sam Elie <sam@add.dog>",
+  "license": "MIT",
+  "bugs": {},
+  "keywords": [
+    "zod",
+    "json-schema",
+    "schema",
+    "validation",
+    "typescript",
+    "converter",
+    "zod-v4"
+  ],
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "zod-to-json-schema": "./dist/cli/index.mjs"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "release": "bumpp",
+    "types": "tsc -p tsconfig.typecheck.json",
+    "knip": "knip",
+    "test": "vitest run",
+    "dev": "tsx src/index.ts",
+    "prepublishOnly": "pnpm run test && pnpm run lint && pnpm run types && pnpm run build",
+    "prepack": "pnpm run prepublishOnly"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@rad/config": "workspace:*",
+    "@rad/eslint": "workspace:*",
+    "@types/node": "^22.18.10",
+    "bumpp": "^10.3.1",
+    "eslint": "^9.37.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "unbuild": "^3.6.1",
+    "vitest": "^3.2.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "private": false,
+  "engines": {
+    "node": ">= 22",
+    "pnpm": ">= 10",
+    "npm": ">= 11"
+  }
+}
