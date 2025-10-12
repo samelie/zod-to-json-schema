@@ -317,14 +317,36 @@ pnpm run prepublishOnly
 
 ### Publishing
 
-The package includes a `prepublishOnly` script that automatically runs before publishing:
+The package includes automated release tooling with `bumpp` and a `prepublishOnly` script:
+
+**Full Release Workflow:**
+
+```bash
+# 1. Bump version (creates commit and tag)
+pnpm run release           # Interactive version selection
+pnpm run release -- --patch  # 0.0.1 → 0.0.2
+pnpm run release -- --minor  # 0.0.1 → 0.1.0
+pnpm run release -- --major  # 0.0.1 → 1.0.0
+
+# 2. Publish to npm (prepublishOnly runs automatically)
+pnpm publish
+```
+
+**What `prepublishOnly` does:**
 
 ```bash
 pnpm run prepublishOnly
 # Runs: test → lint → types → build
 ```
 
-This ensures all checks pass before the package is published to npm.
+This ensures all checks pass before the package is published to npm. The script runs automatically when you execute `pnpm publish`.
+
+**Manual verification (optional):**
+
+```bash
+# Run all checks without publishing
+pnpm run prepublishOnly
+```
 
 ## License
 

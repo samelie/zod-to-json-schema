@@ -5,7 +5,7 @@
         "esModuleInterop": true,
         "verbatimModuleSyntax": true,
         "skipDefaultLibCheck": true,
-        "exactOptionalPropertyTypes": true,
+        "exactOptionalPropertyTypes": false,
         "noUncheckedIndexedAccess": true,
         "noErrorTruncation": true,
         "traceResolution": false,
