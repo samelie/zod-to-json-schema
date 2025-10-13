@@ -36,7 +36,7 @@
     "build": "unbuild",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "release": "bumpp",
+    "release": "bumpp --yes --no-push --release patch",
     "types": "tsc -p tsconfig.typecheck.json",
     "knip": "knip",
     "test": "vitest run",
