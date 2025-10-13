@@ -49,8 +49,8 @@
     "zod": "^4.1.12"
   },
   "devDependencies": {
+    "@adddog/eslint": "workspace:*",
     "@rad/config": "workspace:*",
-    "@rad/eslint": "workspace:*",
     "@types/node": "^22.18.10",
     "bumpp": "^10.3.1",
     "eslint": "^9.37.0",

@@ -67,7 +67,7 @@
                 "../../packages/design-tokens/*",
                 "../../../packages/design-tokens/*"
             ],
-            "@rad/eslint": [
+            "@adddog/eslint": [
                 "./packages/eslint",
                 "../eslint",
                 "../packages/eslint",
