@@ -51,7 +51,7 @@
   "devDependencies": {
     "@adddog/eslint": "workspace:*",
     "@rad/config": "workspace:*",
-"@adddog/config-defaults": "workspace:*",
+"@adddog/config-defaults": "^0.0.3",
     "@types/node": "^22.18.10",
     "bumpp": "^10.3.1",
     "eslint": "^9.37.0",
