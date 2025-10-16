@@ -51,10 +51,10 @@
   "devDependencies": {
     "@adddog/config-defaults": "^0.0.4",
     "@adddog/eslint": "workspace:*",
-    "eslint": "^9.37.0",
     "@rad/config": "workspace:*",
     "@types/node": "^22.18.10",
     "bumpp": "^10.3.1",
+    "eslint": "^9.37.0",
     "tsx": "^4.20.6",
     "typescript": "^5.9.3",
     "unbuild": "^3.6.1",
