@@ -49,7 +49,7 @@
     "zod": "^4.1.12"
   },
   "devDependencies": {
-    "@adddog/config-defaults": "^0.0.4",
+    "@adddog/config-defaults": "workspace:*",
     "@adddog/eslint": "workspace:*",
     "@rad/config": "workspace:*",
     "@types/node": "^22.18.10",
