@@ -45,14 +45,14 @@
     "prepack": "pnpm run prepublishOnly"
   },
   "dependencies": {
-    "commander": "^12.1.0",
+    "commander": "^14.0.1",
     "zod": "^4.1.12"
   },
   "devDependencies": {
     "@adddog/config-defaults": "workspace:*",
     "@adddog/eslint": "workspace:*",
     "@rad/config": "workspace:*",
-    "@types/node": "^22.18.10",
+    "@types/node": "^22.18.11",
     "bumpp": "^10.3.1",
     "eslint": "^9.37.0",
     "tsx": "^4.20.6",
