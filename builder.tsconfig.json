@@ -60,7 +60,7 @@
                 "../../packages/config/src/index",
                 "../../../packages/config/src/index"
             ],
-            "@rad/design-tokens/*": [
+            "@adddog/design-tokens/*": [
                 "./packages/design-tokens/*",
                 "../design-tokens/*",
                 "../packages/design-tokens/*",
