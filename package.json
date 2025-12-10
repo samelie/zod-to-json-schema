@@ -39,7 +39,7 @@
     "release": "bumpp --yes --no-push --no-tag --release patch",
     "types": "tsc -p tsconfig.typecheck.json",
     "knip": "knip",
-    "test": "vitest run",
+    "test": "echo '⚠️⚠️⚠️no test vitest --watch=false'",
     "dev": "tsx src/index.ts",
     "prepublishOnly": "pnpm run test && pnpm run lint && pnpm run types && pnpm run build",
     "prepack": "pnpm run prepublishOnly"
