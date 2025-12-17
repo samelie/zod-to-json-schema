@@ -46,7 +46,7 @@
   },
   "dependencies": {
     "commander": "^14.0.2",
-    "zod": "^4.1.13"
+    "zod": "^4.2.1"
   },
   "devDependencies": {
     "@adddog/config-defaults": "workspace:*",
@@ -58,7 +58,7 @@
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "unbuild": "^3.6.1",
-    "vitest": "^4.0.15"
+    "vitest": "^4.0.16"
   },
   "publishConfig": {
     "access": "public"
