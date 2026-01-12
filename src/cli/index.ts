@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 
 import type { $ZodType } from "zod/v4/core";
-import type { $refStrategy, ConverterOptions } from "../types.ts";
+import type { $refStrategy, ConverterOptions } from "../types";
 import { readFile, writeFile } from "node:fs/promises";
 import { basename, dirname, extname, resolve } from "node:path";
 import process from "node:process";
 import { pathToFileURL } from "node:url";
 import { Command } from "commander";
-import { zodToJsonSchema } from "../converter.ts";
+import { zodToJsonSchema } from "../converter";
 
 const program = new Command();
 

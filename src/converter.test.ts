@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import * as z from "zod/v4";
-import { zodToJsonSchema } from "./converter.ts";
+import { zodToJsonSchema } from "./converter";
 
 describe("zodToJsonSchema", () => {
     describe("primitives", () => {

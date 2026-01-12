@@ -52,7 +52,7 @@
     "@adddog/config-defaults": "workspace:*",
     "@adddog/eslint": "workspace:*",
     "@rad/config": "workspace:*",
-    "@types/node": "^25.0.3",
+    "@types/node": "^25.0.6",
     "bumpp": "^10.3.2",
     "eslint": "^9.39.2",
     "tsx": "^4.21.0",
