@@ -38,11 +38,11 @@
     "lint:fix": "eslint --fix .",
     "release": "bumpp --yes --no-push --no-tag --release patch",
     "types": "tsc -p tsconfig.typecheck.json",
-    "knip": "knip",
     "test": "echo '⚠️⚠️⚠️no test vitest --watch=false'",
     "dev": "tsx src/index.ts",
     "prepublishOnly": "pnpm run test && pnpm run lint && pnpm run types && pnpm run build",
-    "prepack": "pnpm run prepublishOnly"
+    "prepack": "pnpm run prepublishOnly",
+    "knip": "knip"
   },
   "dependencies": {
     "commander": "^14.0.2",
@@ -52,8 +52,8 @@
     "@adddog/config-defaults": "workspace:*",
     "@adddog/eslint": "workspace:*",
     "@rad/config": "workspace:*",
-    "@types/node": "^25.0.7",
-    "bumpp": "^10.3.2",
+    "@types/node": "^25.0.8",
+    "bumpp": "^10.4.0",
     "eslint": "^9.39.2",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
