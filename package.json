@@ -46,19 +46,17 @@
   },
   "dependencies": {
     "commander": "^14.0.2",
-    "zod": "^4.3.5"
+    "zod": "^4.3.6"
   },
   "devDependencies": {
-    "@adddog/config-defaults": "workspace:*",
-    "@adddog/eslint": "workspace:*",
     "@rad/config": "workspace:*",
-    "@types/node": "^25.0.9",
+    "@types/node": "^25.0.10",
     "bumpp": "^10.4.0",
     "eslint": "^9.39.2",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "unbuild": "^3.6.1",
-    "vitest": "^4.0.17"
+    "vitest": "^4.0.18"
   },
   "publishConfig": {
     "access": "public"
