@@ -38,14 +38,6 @@
                 "../packages/config/*",
                 "../../packages/config/*",
                 "../../../packages/config/*"
-            ],
-            "@adddog/eslint": [
-                "./packages/eslint",
-                "../eslint",
-                "../packages/eslint",
-                "../../packages/eslint",
-                "../../../packages/eslint",
-                "../../../../packages/eslint"
             ]
         },
         "types": [
