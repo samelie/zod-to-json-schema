@@ -50,7 +50,7 @@
   },
   "devDependencies": {
     "@rad/config": "workspace:*",
-    "@types/node": "^25.0.10",
+    "@types/node": "^25.1.0",
     "bumpp": "^10.4.0",
     "eslint": "^9.39.2",
     "tsx": "^4.21.0",
