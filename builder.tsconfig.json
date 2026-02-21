@@ -27,7 +27,7 @@
         "noFallthroughCasesInSwitch": true,
         "noUncheckedSideEffectImports": true,
         "paths": {
-            "@rad/env": [
+            "@adddog/env": [
                 "./packages/env/src/index",
                 "../env/src/index",
                 "../packages/env/src/index",
@@ -85,7 +85,7 @@
                 "../../../packages/eslint-plugin-rules",
                 "../../../../packages/eslint-plugin-rules"
             ],
-            "@rad/global-type-defs": [
+            "@adddog/global-type-defs": [
                 "./packages/global-type-defs",
                 "../global-type-defs",
                 "../packages/global-type-defs",
