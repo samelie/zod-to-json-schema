@@ -1,24 +1,26 @@
 {
     "compilerOptions": {
+        "composite": true,
+        "noEmit": false,
+        "skipLibCheck": true,
+        "target": "ES2020",
+        "module": "ESNext",
+        "moduleResolution": "bundler",
+        "allowSyntheticDefaultImports": true,
         "resolveJsonModule": true,
         "strictNullChecks": true,
         "esModuleInterop": true,
         "verbatimModuleSyntax": true,
         "skipDefaultLibCheck": true,
-        "target": "ES2020",
         "useDefineForClassFields": true,
-        "module": "ESNext",
         "lib": [
             "ESNext",
             "DOM",
             "DOM.Iterable"
         ],
-        "skipLibCheck": true,
-        "moduleResolution": "bundler",
         "allowImportingTsExtensions": true,
         "isolatedModules": true,
         "moduleDetection": "force",
-        "noEmit": false,
         "strict": true,
         "noUnusedLocals": true,
         "noUnusedParameters": true,
@@ -112,9 +114,7 @@
         "useUnknownInCatchVariables": true,
         "resolvePackageJsonExports": true,
         "resolvePackageJsonImports": true,
-        "allowSyntheticDefaultImports": true,
-        "preserveConstEnums": true,
-        "composite": true
+        "preserveConstEnums": true
     },
     "include": [
         "src",
