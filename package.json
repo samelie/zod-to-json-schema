@@ -1,6 +1,6 @@
 {
   "name": "@adddog/zod-to-json-schema",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Convert Zod v4 schemas to JSON Schema Draft 7",
   "type": "module",
   "author": "Sam Elie <sam@add.dog>",
