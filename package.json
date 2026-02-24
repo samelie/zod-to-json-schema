@@ -1,6 +1,6 @@
 {
   "name": "@adddog/zod-to-json-schema",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Convert Zod v4 schemas to JSON Schema Draft 7",
   "type": "module",
   "author": "Sam Elie <sam@add.dog>",
@@ -49,9 +49,9 @@
   },
   "devDependencies": {
     "@adddog/monorepo-consistency": "workspace:*",
-    "@types/node": "^25.2.3",
+    "@types/node": "^25.3.0",
     "bumpp": "^10.4.1",
-    "eslint": "^10.0.0",
+    "eslint": "^10.0.2",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "unbuild": "^3.6.1",
