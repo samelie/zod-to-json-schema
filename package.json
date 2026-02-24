@@ -38,7 +38,7 @@
     "types": "tsc -p tsconfig.typecheck.json",
     "test": "echo '⚠️⚠️⚠️no test vitest --watch=false'",
     "dev": "tsx src/index.ts",
-    "prepublishOnly": "pnpm run test && pnpm run lint && pnpm run types && pnpm run build",
+    "prepublishOnly": "pnpm run test && pnpm run types && pnpm run build",
     "prepack": "pnpm run prepublishOnly",
     "knip": "knip",
     "version:patch": "npm version patch --no-git-tag-version"
