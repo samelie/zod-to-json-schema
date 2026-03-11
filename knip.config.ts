@@ -3,13 +3,13 @@
 import { defineKnipConfig } from "@adddog/monorepo-consistency";
 
 export default defineKnipConfig({
-    entry: ["src/index.ts","src/cli.ts","src/cli/index.ts","bin/*.{ts,js}"],
-    project: ["src/**/*.ts","bin/**/*.{ts,js}"],
+    entry: ["src/index.ts", "src/cli.ts", "src/cli/index.ts", "bin/*.{ts,js}"],
+    project: ["src/**/*.ts", "bin/**/*.{ts,js}"],
 }, {
-    "ignoreDependencies": [
-        "@adddog/monorepo-consistency"
+    ignoreDependencies: [
+        "@adddog/monorepo-consistency",
     ],
-    "ignoreBinaries": [
-        "knip"
-    ]
+    ignoreBinaries: [
+        "knip",
+    ],
 });
