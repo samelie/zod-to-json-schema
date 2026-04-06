@@ -47,9 +47,9 @@
     "zod": "^4.3.6"
   },
   "devDependencies": {
-    "@types/node": "^25.5.0",
+    "@types/node": "^25.5.2",
     "bumpp": "^11.0.1",
-    "eslint": "^10.1.0",
+    "eslint": "^10.2.0",
     "tsx": "^4.21.0",
     "typescript": "^6.0.2",
     "unbuild": "^3.6.1",
